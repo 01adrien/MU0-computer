@@ -1,0 +1,27 @@
+
+
+ISA:
+
+16 bits instruction
+
+4 bits OPcode 12 bits address
+
+LDA 0000  =>  ACC = MEM[addr]
+STR 0001  =>  MEM[addr] = ACC
+ADD 0010  =>  ACC += MEM[addr]
+SUB 0011  =>  ACC -= MEM[addr]
+JMP 0100  =>  PC = addr
+JNE 1010  =>  if ACC < 0 -> PC = addr
+JEZ 0110  =>  if ACC == 0 -> PC = addr
+JGZ 1001  =>  if ACC > 0 -> PC = addr
+HLT 1111  =>  stop the clock 
+
+
+ALU:
+
+00  =>  B
+01  =>  A - B
+10  =>  A + B
+11  =>  B++ 
+
+reset instruction ?

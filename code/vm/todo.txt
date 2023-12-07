@@ -1,0 +1,9 @@
+init stack pointer
+segmenter la RAM
+implementer add et sub imm su cpu
+passer CPU en 32 bits
+
+
+** VM translator **
+true  = 1
+false = 0

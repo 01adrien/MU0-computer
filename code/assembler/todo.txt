@@ -1,0 +1,9 @@
+init stack pointer
+segmenter la RAM
+implementer add et sub imm su cpu
+passer CPU en 32 bits
+
+
+implemente LEA
+ldi SP retourne valeur SP
+lda SP retourne addresse SP
