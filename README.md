@@ -1,5 +1,12 @@
-# Processeur MU0 - Prototype en Logisim et C
+# MiniCPU MU0 - Simulation et Émulateur
 
 **Description**  
-Ce projet consiste à **implémenter un processeur MU0** en partant d’une **simulation Logisim**, puis en développant une **version logicielle en C**.  
-L’objectif est de comprendre en profondeur le fonctionnement d’un processeur simple, de l’architecture matérielle à l’implémentation logicielle.  
+Ce projet permet de découvrir et expérimenter un **processeur MU0** complet, avec :  
+- un **circuit Logisim** pour la simulation du processeur,  
+- un **CPU émulé** pour exécuter des instructions,  
+- un **assembleur simple** pour écrire des programmes MU0.  
+
+Le projet permet notamment de **jouer des programmes classiques**, comme le calcul de la factorielle, sur ce mini CPU.  
+Il combine l’apprentissage de l’architecture matérielle et de l’implémentation logicielle d’un processeur simple.
+
+---
